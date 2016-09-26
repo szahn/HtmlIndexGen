@@ -2,7 +2,6 @@
   "name": "html-index-gen",
   "version": "1.0.1",
   "description": "Generate  Html Index File via NPM Automatically",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +10,7 @@
     "url": "git+https://github.com/szahn/HtmlIndexGen.git"
   },
   "bin": {
-    "html-index-gen": "./index.js"
+    "html-index-gen": "./bin/index.js"
   },
   "author": "Stuart Zahn",
   "license": "ISC",

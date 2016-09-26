@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 "use strict";
 var fs = require("fs");
 
@@ -5,7 +6,7 @@ var options = {
 	indexFilename: "index.html"
 };
 
-var srcFilename = "static/" + options.indexFilename;
+var srcFilename = "../static/" + options.indexFilename;
 fs.readFile(srcFilename, "utf8", function(err, data){
 	if (err){
 		return console.log(err);
