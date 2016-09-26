@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/szahn/HtmlIndexGen.git"
   },
+    "bin": {
+    "html-index-gen": "./index.js"
+  },
   "author": "Stuart Zahn",
   "license": "ISC",
   "bugs": {
