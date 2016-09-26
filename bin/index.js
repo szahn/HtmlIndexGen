@@ -6,7 +6,7 @@ var options = {
 	indexFilename: "index.html"
 };
 
-var srcFilename = "../static/" + options.indexFilename;
+var srcFilename = __dirname + "/../static/" + options.indexFilename;
 fs.readFile(srcFilename, "utf8", function(err, data){
 	if (err){
 		return console.log(err);
